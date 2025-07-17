@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Party Lab Experience</title>
+  <meta name="description" content>
+  <meta name="keywords" content>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="service-details-page">
+
+  <nav id="centerLogoNav" class="center-logo-navbar navbar-light">
+
+    <!-- Top row: logo + burger -->
+    <div class="center-logo-navbar__top">
+      <a href="index.php" class="center-logo-navbar__logo-link">
+        <img src="assets/img/logo.png" alt="Your Logo">
+      </a>
+      <button id="centerLogoNavToggle" class="center-logo-navbar__burger navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#centerLogoNavMenu" aria-controls="centerLogoNavMenu"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <!-- Bottom row: your custom menu -->
+    <div id="centerLogoNavMenu" class="center-logo-navbar__bottom collapse">
+      <ul class="center-logo-navbar__menu">
+        <!-- Home & About -->
+        <li class="center-logo-navbar__item">
+          <a href="index.php" class="center-logo-navbar__link active">HOME</a>
+        </li>
+        <li class="center-logo-navbar__item">
+          <a href="about.html" class="center-logo-navbar__link">ABOUT US</a>
+        </li>
+
+        <!-- Kids dropdown -->
+        <li class="center-logo-navbar__item dropdown">
+          <a href="#" class="center-logo-navbar__link dropdown-toggle" id="kidsDropdown" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            KIDS <i class="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="kidsDropdown">
+            <li><a class="dropdown-item" href="kids-experience.html">YOUR EVENT | OUR EXPERTISE</a></li>
+            <li><a class="dropdown-item" href="kids-services.html">OUR SERVICES</a></li>
+            <li><a class="dropdown-item" href="kids-parties.html">EXCLUSIVE PARTIES</a></li>
+            <li><a class="dropdown-item" href="wedding-kids.html">WEDDING KIDS</a></li>
+            <li><a class="dropdown-item" href="click-party.html">CLICK PARTY</a></li>
+          </ul>
+        </li>
+
+        <!-- Adults dropdown -->
+        <li class="center-logo-navbar__item dropdown">
+          <a href="#" class="center-logo-navbar__link dropdown-toggle" id="adultsDropdown" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            ADULTS <i class="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="adultsDropdown">
+            <li><a class="dropdown-item" href="adults-experience.html">YOUR EVENT | OUR EXPERTISE</a></li>
+            <li><a class="dropdown-item" href="adults-services.html">OUR SERVICES</a></li>
+          </ul>
+        </li>
+
+        <!-- Wedding & Venues -->
+        <li class="center-logo-navbar__item dropdown">
+          <a href="#" class="center-logo-navbar__link dropdown-toggle" id="weddingDropdown" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            WEDDING <i class="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="weddingDropdown">
+            <li><a class="dropdown-item" href="special-day.html">YOUR SPECIAL DAY</a></li>
+            <li><a class="dropdown-item" href="wedding-kids.html">WEDDING KIDS</a></li>
+          </ul>
+        </li>
+        <li class="center-logo-navbar__item">
+          <a href="venues.html" class="center-logo-navbar__link">VENUES</a>
+        </li>
+
+        <!-- Information dropdown -->
+        <li class="center-logo-navbar__item dropdown">
+          <a href="#" class="center-logo-navbar__link dropdown-toggle" id="infoDropdown" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            INFORMATION <i class="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="infoDropdown">
+            <li><a class="dropdown-item" href="terms-conditions.html">TERMS & CONDITIONS</a></li>
+            <li><a class="dropdown-item" href="privacy-policy.html">PRIVACY POLICY</a></li>
+            <li><a class="dropdown-item" href="faqs.html">FAQ</a></li>
+          </ul>
+        </li>
+
+        <li class="center-logo-navbar__item">
+          <a href="contact.php" class="center-logo-navbar__link active">CONTACT</a>
+        </li>
+
+        <!-- Instagram icon -->
+        <li class="center-logo-navbar__item social">
+          <a href="https://www.instagram.com/thepartylab_kids" target="_blank" rel="noopener"
+            class="center-logo-navbar__link">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/experience/banner-adults.png);">
+      <div class="container">
+        <h1>Your event | Our expertise</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.php">Home</a></li>
+            <li class="current">Your event | Our expertise</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-12 ps-lg-5 text-center" data-aos="fade-up" data-aos-delay="200">
+            <!-- <img src="assets/img/experience/13.png" alt
+                class="img-fluid services-img"> -->
+            <h3>The Party Lab Experience</h3>
+            <p>
+              At The Party Lab, we start by understanding your event’s
+              purpose, vision, and preferences—from theme and colours to
+              location and budget.</p>
+
+            <p>Once we have received all the information our team will get to
+              work: through creative brainstorming sessions, our team will
+              ensure that everything from entertainment, decor and other
+              services aligns with your vision while we keep you updated
+              during this process</p>
+
+            <p>We’ll help you visualise how the space works best for your
+              event, accommodate seating arrangements, decoration, activities
+              and other services to suit your event type and guest list size
+              and guide you through venue options available on our website
+              here. </p>
+
+            <p>After finalising the services and design, a deposit confirms
+              your booking and lets us move ahead with confidence. </p>
+
+            <p>From there, we handle all logistics—from vendor coordination
+              and setup to on-the-day planning and seamless breakdown—so you
+              can simply enjoy the moment while we take care of the rest.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Service Details Section -->
+
+    <section id="service-categories" class="service-categories section">
+      <div class="container">
+
+        <!-- Intro -->
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Ready to celebrate a milestone birthday or elevate your corporate event?
+              Our team handles everything from concept to clean-up, including decoration,
+              catering, entertainment, activities, live music and more! We bring your vision
+              to life with creativity, passion, and attention to detail—so you can relax
+              and enjoy the moment.
+            </p>
+          </div>
+        </div>
+
+        <!-- Event types list -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="text-center mb-3">We create unique and exciting events such as:</h3>
+            <ul class="list-unstyled text-center" style="font-size:21px;">
+              <li>Milestone Birthdays</li>
+              <li>Engagement Parties</li>
+              <li>Bride to Be</li>
+              <li>Housewarming</li>
+              <li>Anniversary Dinners</li>
+              <li>Corporate Events &amp; Office Parties</li>
+              <li>Cocktail or Garden Parties</li>
+              <li>Holiday Celebrations</li>
+              <li>Themed Dinner Nights</li>
+              <li>Private Live Music Nights</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Outro -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-10 text-center" data-aos="fade-up" data-aos-delay="300">
+            <p class="lead">
+              Whatever the occasion, we tailor every element to fit your style, audience, and goals.
+              Providing professionalism, expertise and joining forces with all the best providers on
+              the island to create the most beautiful parties with memories that will last a lifetime.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.php" class="logo d-flex align-items-center">
+              <span class="sitename">ThePartyLab</span>
+            </a>
+            <p>ThePartyLab is a party planning company that specializes in creating memorable experiences for children
+              and
+              adults alike.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.instagram.com/thepartylab_kids"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="kids-services.html">Services Kids</a></li>
+              <li><a href="adults-services.html">Services Adults</a></li>
+              <li><a href="terms-conditions.html">Terms of Service</a></li>
+              <li><a href="faqs.html">FAQ</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>Palma Mallorca, Isla Balears</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+34 644 65 49 05</span></p>
+            <p><strong>Email:</strong> <span>bookings@thepartylabmallorca.com</span></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">PartyLab</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://ramonbriceno.netlify.app/">Ramon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

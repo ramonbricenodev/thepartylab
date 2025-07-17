@@ -1,0 +1,473 @@
+[2025-07-03 04:34] RAW POST: Array
+(
+    [website] => 
+    [csrf_token] => cd39a81fa827f09113d7c00afdd5c878dbf1092e2736a8792c04a2957ecc5f46
+    [ts] => 1751510070
+    [js] => 1
+    [first_name] => Ramon
+    [last_name] => Briceno
+    [email] => ramonbriceno12@gmail.com
+    [phone] => 04122434077
+    [services] => Array
+        (
+            [0] => Kids Party
+        )
+
+    [preferred_date] => 2025-07-02
+    [referral] => Word of mouth
+    [message] => test
+)
+
+[2025-07-03 04:34] Passed rate-limit
+[2025-07-03 04:34] Passed honeypot
+[2025-07-03 04:34] Passed CSRF
+[2025-07-03 04:34] Passed anti-bot
+[2025-07-03 04:36] RAW POST: Array
+(
+    [website] => 
+    [csrf_token] => cd39a81fa827f09113d7c00afdd5c878dbf1092e2736a8792c04a2957ecc5f46
+    [ts] => 1751510070
+    [js] => 1
+    [first_name] => Ramon
+    [last_name] => Briceno
+    [email] => ramonbriceno12@gmail.com
+    [phone] => 04122434077
+    [services] => Array
+        (
+            [0] => Kids Party
+        )
+
+    [preferred_date] => 2025-07-02
+    [referral] => Word of mouth
+    [message] => test
+)
+
+[2025-07-03 04:36] Passed rate-limit
+[2025-07-03 04:36] Passed honeypot
+[2025-07-03 04:36] Passed CSRF
+[2025-07-03 04:36] Passed anti-bot
+[2025-07-03 04:38] RAW POST: Array
+(
+    [website] => 
+    [csrf_token] => cd39a81fa827f09113d7c00afdd5c878dbf1092e2736a8792c04a2957ecc5f46
+    [ts] => 1751510070
+    [js] => 1
+    [first_name] => Ramon
+    [last_name] => Briceno
+    [email] => ramonbriceno12@gmail.com
+    [phone] => 04122434077
+    [services] => Array
+        (
+            [0] => Kids Party
+        )
+
+    [preferred_date] => 2025-07-02
+    [referral] => Word of mouth
+    [message] => test
+)
+
+[2025-07-03 04:38] Passed rate-limit
+[2025-07-03 04:38] Passed honeypot
+[2025-07-03 04:38] Passed CSRF
+[2025-07-03 04:38] Passed anti-bot
+[2025-07-03 04:38] Passed all validations
+[2025-07-03 04:38] SMTP settings – Host=smtp.gmail.com, Port=587, User=bookings@thepartylabmallorca.com, From=bookings@thepartylabmallorca.com
+[2025-07-03 04:38] sendMail() start to=bookings@thepartylabmallorca.com
+[2025-07-03 04:38] sendMail() Exception: SMTP Error: data not accepted.
+[2025-07-03 04:38] sendMail() start to=ramonbriceno12@gmail.com
+[2025-07-03 04:38] sendMail() Exception: SMTP Error: data not accepted.
+[2025-07-03 04:38] Final result – adminSent=, clientSent=
+[2025-07-03 04:39] RAW POST: Array
+(
+    [website] => 
+    [csrf_token] => cd39a81fa827f09113d7c00afdd5c878dbf1092e2736a8792c04a2957ecc5f46
+    [ts] => 1751510070
+    [js] => 1
+    [first_name] => Ramon
+    [last_name] => Briceno
+    [email] => ramonbriceno12@gmail.com
+    [phone] => 04122434077
+    [services] => Array
+        (
+            [0] => Kids Party
+        )
+
+    [preferred_date] => 2025-07-02
+    [referral] => Word of mouth
+    [message] => test
+)
+
+[2025-07-03 04:39] Passed rate-limit
+[2025-07-03 04:39] Passed honeypot
+[2025-07-03 04:39] Passed CSRF
+[2025-07-03 04:39] Passed anti-bot
+[2025-07-03 04:39] Passed all validations
+[2025-07-03 04:39] SMTP settings – Host=smtp.gmail.com, Port=587, User=bookings@thepartylabmallorca.com, From=bookings@thepartylabmallorca.com
+[2025-07-03 04:39] sendMail() start to=bookings@thepartylabmallorca.com
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a1e0cc1a2514c-884f73cefd8sm1629101241.23 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.162.64]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: STARTTLS
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.162.64]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: MAIL FROM:<bookings@thepartylabmallorca.com>
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.0 OK a1e0cc1a2514c-884f73cefd8sm1629101241.23 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: RCPT TO:<bookings@thepartylabmallorca.com>
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.5 OK a1e0cc1a2514c-884f73cefd8sm1629101241.23 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: DATA
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 a1e0cc1a2514c-884f73cefd8sm1629101241.23 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: SMTP ERROR: DATA command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 a1e0cc1a2514c-884f73cefd8sm1629101241.23 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [2]: SMTP Error: data not accepted.
+[2025-07-03 04:39] sendMail() Exception: SMTP Error: data not accepted.
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: QUIT
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection a1e0cc1a2514c-884f73cefd8sm1629101241.23 - gsmtp
+
+[2025-07-03 04:39] sendMail() start to=ramonbriceno12@gmail.com
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a1e0cc1a2514c-884d1d87e34sm2498941241.20 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.162.64]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: STARTTLS
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.162.64]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: MAIL FROM:<bookings@thepartylabmallorca.com>
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.0 OK a1e0cc1a2514c-884d1d87e34sm2498941241.20 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: RCPT TO:<ramonbriceno12@gmail.com>
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.5 OK a1e0cc1a2514c-884d1d87e34sm2498941241.20 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: DATA
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 a1e0cc1a2514c-884d1d87e34sm2498941241.20 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [1]: SMTP ERROR: DATA command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 a1e0cc1a2514c-884d1d87e34sm2498941241.20 - gsmtp
+
+[2025-07-03 04:39] SMTP debug [2]: SMTP Error: data not accepted.
+[2025-07-03 04:39] sendMail() Exception: SMTP Error: data not accepted.
+[2025-07-03 04:39] SMTP debug [1]: CLIENT -> SERVER: QUIT
+
+[2025-07-03 04:39] SMTP debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection a1e0cc1a2514c-884d1d87e34sm2498941241.20 - gsmtp
+
+[2025-07-03 04:39] Final result – adminSent=, clientSent=
+[2025-07-03 13:15] RAW POST: Array
+(
+    [website] => 
+    [csrf_token] => cd39a81fa827f09113d7c00afdd5c878dbf1092e2736a8792c04a2957ecc5f46
+    [ts] => 1751541338
+    [js] => 1
+    [first_name] => Ramon
+    [last_name] => Briceno
+    [email] => ramonbriceno12@gmail.com
+    [phone] => 04122434077
+    [services] => Array
+        (
+            [0] => Kids Party
+        )
+
+    [preferred_date] => 2025-07-03
+    [referral] => Word of mouth
+    [message] => test
+)
+
+[2025-07-03 13:15] Passed rate-limit
+[2025-07-03 13:15] Passed honeypot
+[2025-07-03 13:15] Passed CSRF
+[2025-07-03 13:15] Passed anti-bot
+[2025-07-03 13:15] Passed all validations
+[2025-07-03 13:15] SMTP settings – Host=smtp.gmail.com, Port=587, User=bookings@thepartylabmallorca.com, From=bookings@thepartylabmallorca.com
+[2025-07-03 13:15] sendMail() start to=bookings@thepartylabmallorca.com
+[2025-07-03 13:15] SMTP debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a1e0cc1a2514c-884d196d597sm2833441241.0 - gsmtp
+
+[2025-07-03 13:15] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 13:15] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.176.56]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 13:15] SMTP debug [1]: CLIENT -> SERVER: STARTTLS
+
+[2025-07-03 13:15] SMTP debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.176.56]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: MAIL FROM:<bookings@thepartylabmallorca.com>
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.0 OK a1e0cc1a2514c-884d196d597sm2833441241.0 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: RCPT TO:<bookings@thepartylabmallorca.com>
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.5 OK a1e0cc1a2514c-884d196d597sm2833441241.0 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: DATA
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 354 Go ahead a1e0cc1a2514c-884d196d597sm2833441241.0 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Date: Thu, 3 Jul 2025 13:15:59 +0200
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: To: ThePartyLab Team <bookings@thepartylabmallorca.com>
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: From: ThePartyLab <bookings@thepartylabmallorca.com>
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Subject: New enquiry from Ramon Briceno
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Message-ID: <qkML2XqTTb8aKblM8CLIXIdDyCJLcy5q6fcIbElw@localhost>
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: You have a new enquiry:
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Name:          Ramon Briceno
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Email:         ramonbriceno12@gmail.com
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Phone:         04122434077
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Services:      Kids Party
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Preferred on:  2025-07-03
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Referred by:   Word of mouth
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Message:
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: test
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: .
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250 2.0.0 OK  1751541362 a1e0cc1a2514c-884d196d597sm2833441241.0 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: QUIT
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection a1e0cc1a2514c-884d196d597sm2833441241.0 - gsmtp
+
+[2025-07-03 13:16] sendMail() success=1
+[2025-07-03 13:16] sendMail() start to=ramonbriceno12@gmail.com
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a1e0cc1a2514c-884d1c4b2e9sm2773618241.15 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.176.56]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: STARTTLS
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.167.176.56]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: [credentials hidden]
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: MAIL FROM:<bookings@thepartylabmallorca.com>
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.0 OK a1e0cc1a2514c-884d1c4b2e9sm2773618241.15 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: RCPT TO:<ramonbriceno12@gmail.com>
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250 2.1.5 OK a1e0cc1a2514c-884d1c4b2e9sm2773618241.15 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: DATA
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 354 Go ahead a1e0cc1a2514c-884d1c4b2e9sm2773618241.15 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Date: Thu, 3 Jul 2025 13:16:02 +0200
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: To: Ramon <ramonbriceno12@gmail.com>
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: From: ThePartyLab <bookings@thepartylabmallorca.com>
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Subject: Thanks for contacting ThePartyLab!
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Message-ID: <9WY7r1ilGCfQmntbUOwHlOevDfIgfix8tdTb22qyRuw@localhost>
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Hi Ramon,
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Thanks for reaching out to ThePartyLab! We’ve received your request:
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: — Services:       Kids Party
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: — Preferred Date: 2025-07-03
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: — How you heard:  Word of mouth
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Your message:
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: test
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: We’ll be in touch shortly to confirm availability and next steps.
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: Happy planning!
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: ThePartyLab Team
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: 
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: .
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 250 2.0.0 OK  1751541364 a1e0cc1a2514c-884d1c4b2e9sm2773618241.15 - gsmtp
+
+[2025-07-03 13:16] SMTP debug [1]: CLIENT -> SERVER: QUIT
+
+[2025-07-03 13:16] SMTP debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection a1e0cc1a2514c-884d1c4b2e9sm2773618241.15 - gsmtp
+
+[2025-07-03 13:16] sendMail() success=1
+[2025-07-03 13:16] Final result – adminSent=1, clientSent=1
